@@ -83,9 +83,6 @@ const Contact = () => {
             odio minima non neque assumenda ipsa hic iste sequi, distinctio rem
             totam earum, pariatur veritatis veniam. Qui corrupti voluptates eos!
           </p>
-          <button className=" bg-red-600 text-sm px-8 py-3 text-white font-semibold rounded-xl hover:bg-black dark:hover:bg-red-700 cursor-pointer">
-            SEND EMAIL
-          </button>
         </div>
       </section>
     </div>

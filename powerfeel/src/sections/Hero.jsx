@@ -54,16 +54,6 @@ const Hero = () => {
           } lg:w-[70%] w-full m-auto grid lg:grid-cols-4 grid-cols-1 justify-center items-center gap-6 p-8 rounded-xl -mt-14`}
         >
           <div className=" w-full">
-            <h1 className=" text-black font-semibold dark:text-white">
-              LOCATION
-            </h1>
-            <input
-              type="text"
-              placeholder="Enter an address, state, city or pincode"
-              className=" bg-white p-2 w-full mt-2 border-b-[1px] border-[#c9c7c1]"
-            />
-          </div>
-          <div className=" w-full">
             <h1 className=" text-black font-semibold dark:text-white">TYPE</h1>
             <select
               name="selectOption"
@@ -71,35 +61,45 @@ const Hero = () => {
               className=" bg-white p-2 border-b-[1px] w-full mt-2 borser-[#c9c7c] text-gray-500 text-sm"
             >
               <option value="" disabled selected>
-                Select Property
+                Select Type
               </option>
-              <option value="Option1">Rentals</option>
-              <option value="Option1">Sales</option>
-              <option value="Option1">Commercials</option>
+              <option value="Option1">With Text</option>
+              <option value="Option1">Plane</option>
             </select>
           </div>
           <div className=" w-full">
-            <h1 className=" text-black font-semibold dark:text-white">
-              CATEGORY
-            </h1>
+            <h1 className=" text-black font-semibold dark:text-white">Color</h1>
             <select
               name="selectOption"
               id="selectOption"
               className=" bg-white p-2 border-b-[1px] w-full mt-2 borser-[#c9c7c] text-gray-500 text-sm"
             >
               <option value="" disabled selected>
-                Property Category
+                Select Color
               </option>
-              <option value="Option1">Option1</option>
-              <option value="Option1">Option2</option>
-              <option value="Option1">Option3</option>
-              <option value="Option1">Option4</option>
-              <option value="Option1">Option5</option>
+              <option value="Option1">Red</option>
+              <option value="Option1">White</option>
+              <option value="Option1">Yellow</option>
+            </select>
+          </div>
+          <div className=" w-full">
+            <h1 className=" text-black font-semibold dark:text-white">Size</h1>
+            <select
+              name="selectOption"
+              id="selectOption"
+              className=" bg-white p-2 border-b-[1px] w-full mt-2 borser-[#c9c7c] text-gray-500 text-sm"
+            >
+              <option value="" disabled selected>
+                Select Size
+              </option>
+              <option value="Option1">Small</option>
+              <option value="Option1">Large</option>
+              <option value="Option1">Extra Large</option>
             </select>
           </div>
           <div className=" w-full">
             <button className=" bg-red-600 dark:bg-red-700 hover:bg-black dark:hover:bg-white dark:hover:text-black text-lg p-4 w-full text-white font-semibold rounded-xl cursor-pointer transform hover:scale-110 transition-transform duration-300">
-              SUBMIT
+              SEARCH
             </button>
           </div>
         </div>

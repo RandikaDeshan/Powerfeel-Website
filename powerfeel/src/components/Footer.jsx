@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
         <div className=" flex flex-col justify-center items-start gap-5">
           <h1 className=" text-white text-2xl font-semibold">
-            Latest Properties
+            Latest Categories
           </h1>
           <div className=" flex justify-center items-center gap-4">
             <img
@@ -88,7 +88,7 @@ const Footer = () => {
               className=" w-[120px] rounded-lg transform hover:scale-110 cursor-pointer transition-transform duration-300"
             />
             <div>
-              <h1 className=" text-lg text-white">Villa with amazing view</h1>
+              <h1 className=" text-lg text-white">Bithday Wishes</h1>
               <p className=" text-slate-400">$ 280.98</p>
             </div>
           </div>
@@ -99,20 +99,13 @@ const Footer = () => {
               className=" w-[120px] rounded-lg transform hover:scale-110 cursor-pointer transition-transform duration-300"
             />
             <div>
-              <h1 className=" text-lg text-white">Smart view from beach</h1>
+              <h1 className=" text-lg text-white">Weddings</h1>
               <p className=" text-slate-400">$ 480.98</p>
             </div>
           </div>
         </div>
       </footer>
-      <div
-        id="icon-box"
-        className=" bg-red-600 p-4 rounded-full hover:bg-black cursor-pointer fixed lg:bottom-12 bottom-6 right-6"
-      >
-        <Link to="home" spy={true} offset={-100} smooth={true}>
-          <FaArrowUp className=" text-white size-6" />
-        </Link>
-      </div>
+
       <div>
         <button
           onClick={toggleDarkMode}

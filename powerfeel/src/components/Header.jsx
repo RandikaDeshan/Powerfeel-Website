@@ -31,10 +31,7 @@ const Header = () => {
       link: "Categories",
       path: "categories",
     },
-    {
-      link: "Services",
-      path: "services",
-    },
+
     {
       link: "Feedbacks",
       path: "feedbacks",

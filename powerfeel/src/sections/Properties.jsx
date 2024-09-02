@@ -36,7 +36,7 @@ const Properties = () => {
       >
         <div className=" flex flex-col justify-center items-start gap-4">
           <h1 data-aos="zoom-in" className=" text-red-500 dark:text-white">
-            PROPERTIES
+            CATEGORIES
           </h1>
           <h1
             data-aos="zoom-in"
@@ -85,10 +85,6 @@ const Properties = () => {
                       id="bottom"
                       className=" flex justify-between items-end w-full"
                     >
-                      <div className=" flex justify-start items-center gap-2">
-                        <FaMapMarkerAlt className=" size-4 text-white" />
-                        <h1 className=" text-white">{item.address}</h1>
-                      </div>
                       <div className=" flex justify-center items-center gap-4">
                         <FaVideo className=" text-white" />
                         <FaCamera className=" text-white" />
@@ -103,36 +99,13 @@ const Properties = () => {
                       {item.price}
                     </h1>
                     <p className=" dark:text-white">{item.about}</p>
-                    <div
-                      id="icons"
-                      className=" flex justify-center items-start gap-4"
-                    >
-                      <div className=" flex justify-center items-center gap-2">
-                        <FaBath className=" size-5 text-red-400" />
-                        <h1 className=" dark:text-white">{item.bath}</h1>
-                      </div>
-                      <div className=" flex justify-center items-center gap-2">
-                        <FaBed className=" size-5 text-red-400" />
-                        <h1 className=" dark:text-white">{item.bed}</h1>
-                      </div>
-                      <div className=" flex justify-center items-center gap-2">
-                        <MdSpaceDashboard className=" size-5 text-red-400" />
-                        <h1 className=" dark:text-white">{item.area}</h1>
-                      </div>
-                    </div>
+
                     <div className=" w-full h-[1px] bg-gray-200 mt-8"></div>
                     <div
                       id="owner-info"
                       className=" flex justify-between items-center w-full mt-2"
                     >
-                      <div className=" flex justify-center items-center gap-2">
-                        <FaUserCircle className=" size-5 text-red-400" />
-                        <h1 className=" dark:text-white">{item.owner}</h1>
-                      </div>
                       <div className=" flex justify-center items-center gap-4">
-                        <div className=" p-2 border-2 border-gray-200 hover:bg-black cursor-pointer transform hover:scale-110 transition-transform duration-300">
-                          <FaShareAlt className=" size-4 text-red-400" />
-                        </div>
                         <div className=" p-2 border-2 border-gray-200 hover:bg-black cursor-pointer transform hover:scale-110 transition-transform duration-300">
                           <FaHeart className=" size-4 text-red-400" />
                         </div>
